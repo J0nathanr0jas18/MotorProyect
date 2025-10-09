@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Gradient Text - CSS</title>
+<style>
+  .gradient-text {
+    font-size: 4rem;
+    font-weight: 800;
+    /* Define el gradiente */
+    background: linear-gradient(90deg, #ff6a00, #ff6ad5, #6a00ff);
+    /* Hace que el fondo se "recorte" al texto */
+    -webkit-background-clip: text; /* necesario en WebKit/Blink */
+    background-clip: text;
+    color: transparent;           /* el color real debe estar transparente */
+    /* Opcional: mejora legibilidad en algunos casos */
+    -webkit-text-fill-color: transparent;
+  }
+</style>
+</head>
+<body>
+  <h1 class="gradient-text">Texto con gradiente</h1>
+</body>
+</html>
