@@ -1,21 +1,18 @@
-name: lint HTML on desarollo
+name: Validación Web
+
 on:
   push:
     branches:
-      - desarrollo
+      - desarrollo  # Solo se ejecuta en la rama desarrollo
 
 jobs:
-  lint-html:
+  validar:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v3
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v3
+
+      - name: Validar HTML
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
         with:
-          node-version: '18'
-      - name: Install HTMLHint
-        run: npm install -g htmlhint
-      - name: Run HTMLHint
-        run: htmlhint "**/*.html"
+          root: ./
