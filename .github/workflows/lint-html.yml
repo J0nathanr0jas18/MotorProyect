@@ -1,0 +1,21 @@
+name: lint HTML on desarollo
+on:
+  push:
+    branches:
+      - desarrollo
+
+jobs:
+  lint-html:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Install HTMLHint
+        run: npm install -g htmlhint
+      - name: Run HTMLHint
+        run: htmlhint "**/*.html"
