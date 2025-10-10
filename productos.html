@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo — Tienda XYZ Motos</title>
+<link rel="stylesheet" href="assets/css/productos.css">
+</head>
+<body>
+    <header class="site-header container">
+        <a class="brand" href="./"><img src="assets/img/logo.png" alt="Logo"/> <span>Tienda XYZ Motos</span></a>
+        <nav aria-label="principal">
+            <a href="./">Inicio</a>
+            <a class="active" href="productos.html" aria-current="page">Catálogo</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Catálogo</h1>
+        <form id="filtros" class="filters" aria-label="Filtros del catálogo">
+            <label>Marca 
+                <select name="marca" id="f-marca"></select>
+            </label>
+            <label>Cilindrada 
+                <select name="cc" id="f-cc">
+                    <option value="">Todas</option>
+                    <option value="125">125cc</option>
+                    <option value="150">150cc</option>
+                    <option value="200">200cc</option>
+                    <option value="250">250cc</option>
+                </select>
+            </label>
+            <label>Precio máx (USD) 
+                <input type="number" id="f-precio" min="0" step="100">
+            </label>
+            <button type="button" id="btn-filtrar" class="btn">Aplicar</button>
+            <button type="reset" id="btn-limpiar" class="btn ghost">Limpiar</button>
+        </form>
+
+
+        <section id="grid" class="grid motos" aria-live="polite"></section>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="container">© 
+            <span id="year"></span> Tienda XYZ Motos
+        </div>
+    </footer>
+<script src="assets/js/productos.js" defer></script>
