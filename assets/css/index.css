@@ -73,7 +73,7 @@ body {
 
 .title-page {
     font-weight: 700;
-    font-size: 4.5rem;
+    font-size: 4rem;
     color: #333;
 }
 
@@ -246,4 +246,61 @@ footer {
 .footer-nav-links.active {
     color: #2B59D9 !important;
     font-weight: 600;
+}
+
+/* Página Contact */
+.body-contact {
+    background-color: #f5f5f5;
+}
+
+.img-banner-contact {
+    box-shadow: 0 -1.2rem 4rem #d1d1d1, 0 1rem 3rem #828282;
+}
+
+.stats-contact {
+    background-color: #fff;
+}
+
+.about-mission .contact-section {
+    background-color: #f2fffb;
+}
+
+.stat-item-contact {
+    font-size: 3rem;
+    color: #2B59D9;
+    text-align: center;
+}
+
+.stat-label-contact {
+    font-size: 1rem;
+    color: #4F4F4F;
+}
+
+.title-desc {
+    color: #000;
+}
+
+.text-desc {
+    text-align: left;
+    color: #767676;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+
+}
+
+.job-values {
+    background-color: #fff;
+}
+
+.card-info-contact p {
+    text-align: center;
+    color: #767676;
+}
+
+.card-info-contact i {
+    font-size: 2rem;
+    border-radius: 1.2rem;
+    background-color: #7DFFEE88;
+    color: #000c;
 }
