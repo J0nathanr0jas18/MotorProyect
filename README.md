@@ -14,3 +14,36 @@ $ git add .
 $ git checkout -b desarrollo
 $ git commit -m "Creación de branch desarrollo (close #1)"
 $ git push -u origin desarrollo
+```
+# 🏍️ MotoMarket - Sitio Web de Venta de Motos Usadas
+
+**MotoMarket** es una plataforma web diseñada para la compra y venta de motos usadas. Permite a los usuarios publicar anuncios, buscar por marca o modelo, y contactar directamente con los vendedores de forma rápida y segura.
+
+---
+
+## 🚀 Características principales
+
+- Publicación de motos con imágenes, descripción y precio.  
+- Sistema de búsqueda por marca, modelo y año.  
+- Perfiles de usuario con información de contacto.  
+- Interfaz moderna y adaptable (responsive).  
+- Integración con WhatsApp para contacto directo.  
+- Panel de administración para gestión de publicaciones y usuarios.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap  
+- **Backend:** PHP (Laravel)  
+- **Base de datos:** MySQL  
+- **Servidor:** Nginx sobre Linux  
+- **Control de versiones:** Git y GitHub  
+
+---
+
+## ⚙️ Instalación y ejecución
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/usuario/motomarket.git
