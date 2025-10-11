@@ -35,9 +35,6 @@ $ git push -u origin desarrollo
 ## 🛠️ Tecnologías utilizadas
 
 - **Frontend:** HTML5, CSS3, JavaScript, Bootstrap  
-- **Backend:** PHP (Laravel)  
-- **Base de datos:** MySQL  
-- **Servidor:** Nginx sobre Linux  
 - **Control de versiones:** Git y GitHub  
 
 ---
