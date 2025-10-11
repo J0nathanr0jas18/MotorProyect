@@ -44,3 +44,6 @@ $ git push -u origin desarrollo
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/usuario/motomarket.git
+## Integrantes
+- Zadkiel Alexander Diaz Caldera (22-01831-1)
+- Jonathan Andrés Castillo Rojas (22-02171-1)
